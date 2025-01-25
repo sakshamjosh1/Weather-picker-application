@@ -37,13 +37,9 @@ root.title("Weather Picker")
 root.geometry("800x500")
 root.resizable(False, False)
 
-# Add a background image
-background_image = Image.open("background.jpg")  
-background_image = background_image.resize((800, 500), Image.Resampling.LANCZOS)
-bg_photo = ImageTk.PhotoImage(background_image)
 
-background_label = tk.Label(root, image=bg_photo)
-background_label.place(relwidth=1, relheight=1)
+
+
 
 # Heading Label
 heading_label = tk.Label(

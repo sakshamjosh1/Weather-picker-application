@@ -31,11 +31,7 @@ root.title("Weather App")
 root.geometry("500x400")
 root.configure(bg="#e0f7fa")
 
-# Add background image
-background_image = Image.open("background.jpg")  # Replace with your image path
-background_photo = ImageTk.PhotoImage(background_image)
-background_label = tk.Label(root, image=background_photo)
-background_label.place(relwidth=1, relheight=1)
+
 
 # Create and place the widgets
 style = ttk.Style()
